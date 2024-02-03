@@ -1,0 +1,1519 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Editors\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Learn/Unity/Projects/Whack-a-Monster
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51866
+Successfully changed project path to: D:/Learn/Unity/Projects/Whack-a-Monster
+D:/Learn/Unity/Projects/Whack-a-Monster
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16952] Host "[IP] 192.168.29.174 [Port] 0 [Flags] 2 [Guid] 2039821170 [EditorId] 2039821170 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1662A1S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16952] Host "[IP] 192.168.29.174 [Port] 0 [Flags] 2 [Guid] 2039821170 [EditorId] 2039821170 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1662A1S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 286.38 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.95 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path D:/Unity Editors/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Learn/Unity/Projects/Whack-a-Monster/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'D:/Unity Editors/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editors/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editors/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editors/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Editors/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity Editors/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Editors/2021.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.053739 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 314 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 134.80 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2145ms)
+		BeginReloadAssembly (759ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1104ms)
+			LoadAssemblies (762ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (398ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 129.19 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1516ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1260ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (347.2 KB). Loaded Objects now: 6012.
+Memory consumption went from 220.8 MB to 220.5 MB.
+Total: 19.718800 ms (FindLiveObjects: 11.326500 ms CreateObjectMapping: 2.153200 ms MarkObjects: 6.056800 ms  DeleteObjects: 0.180900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29422.104526 seconds.
+  path: Assets/Games/WhackMonster/WhackMonster_Scenes/4PlayWhack.unity
+  artifactKey: Guid(d2b18ed5c3578aa41a5fe1886ca8ac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/WhackMonster_Scenes/4PlayWhack.unity using Guid(d2b18ed5c3578aa41a5fe1886ca8ac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d212a57aad8eda9192541bfc573504') in 0.019147 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1280ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (959ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.16 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6016.
+Memory consumption went from 213.8 MB to 212.8 MB.
+Total: 3.725800 ms (FindLiveObjects: 0.409300 ms CreateObjectMapping: 0.316100 ms MarkObjects: 2.642200 ms  DeleteObjects: 0.357200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.648155 seconds.
+  path: Assets/Games/WhackMonster/WhackMonster_Scenes/5WhackGame.unity
+  artifactKey: Guid(693ebbe7a6fa39642b45c9fd9d83d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/WhackMonster_Scenes/5WhackGame.unity using Guid(693ebbe7a6fa39642b45c9fd9d83d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4901dacd2fd7a7a5c4bea19279c1bfc9') in 0.013624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.921754 seconds.
+  path: Assets/Games/WhackMonster/Models/anmol_33_scale.fbx
+  artifactKey: Guid(e50748ba0d3a640a59e6133c0acb2a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Models/anmol_33_scale.fbx using Guid(e50748ba0d3a640a59e6133c0acb2a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295dc18719ff99f9fc671438f4d85870') in 0.731697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Games/WhackMonster/Models/uploads_files_4138407_CatLamp_Export.fbx
+  artifactKey: Guid(133b572f5936c7c42a6431d1747d8773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Models/uploads_files_4138407_CatLamp_Export.fbx using Guid(133b572f5936c7c42a6431d1747d8773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95400a157dd15ce8a9f4115f159acc4') in 2.694695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Games/WhackMonster/Models/uploads_files_1863791_Lantern.fbx
+  artifactKey: Guid(152a96439485532478618f7816b1764c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Models/uploads_files_1863791_Lantern.fbx using Guid(152a96439485532478618f7816b1764c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e503250b0512c1fb52d2a70e6f5d80f') in 0.073063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Games/WhackMonster/Models/raghav_33_scale.fbx
+  artifactKey: Guid(99631b2aebd5c429487e61028b520e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Models/raghav_33_scale.fbx using Guid(99631b2aebd5c429487e61028b520e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e919ddfb1094d76fcc484879c2696c') in 0.073461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Games/WhackMonster/Models/rocks+trees=baki sab.fbx
+  artifactKey: Guid(7dd467056c0481242b7f683cde90d780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Models/rocks+trees=baki sab.fbx using Guid(7dd467056c0481242b7f683cde90d780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f74e8b8b2e145906594997747c732fd') in 0.963765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Games/WhackMonster/Models/spawn+path+walls+gate.fbx
+  artifactKey: Guid(0bb4fcd46ed4efa43bd3cd81b19fd3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Models/spawn+path+walls+gate.fbx using Guid(0bb4fcd46ed4efa43bd3cd81b19fd3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d08f988656548c69177a2bd6b1a6ad') in 0.117887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Games/WhackMonster/Models/vishal_33_scale.fbx
+  artifactKey: Guid(cb478a0d2c0da4a00a7d618d93be0ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Models/vishal_33_scale.fbx using Guid(cb478a0d2c0da4a00a7d618d93be0ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e0713a9391d18704bdc2daa1a6cb68') in 0.037305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Games/WhackMonster/Models/rahul_33_scale.fbx
+  artifactKey: Guid(eea04dce8c55142138c7900c74ef55af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Models/rahul_33_scale.fbx using Guid(eea04dce8c55142138c7900c74ef55af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d528102f5a4bb64a477a3a9aa139961') in 0.040922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.720185 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/rock_moss.mat
+  artifactKey: Guid(39af8864e616b2046a6585df6edc4323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/rock_moss.mat using Guid(39af8864e616b2046a6585df6edc4323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed45cc3f5868ad67c8c0cc7e9ab9cc7b') in 0.058500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/Rock_Moss_001_ambientOcclusion.jpg
+  artifactKey: Guid(7270a6f572b930b4ca7e85965a2ebb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/Rock_Moss_001_ambientOcclusion.jpg using Guid(7270a6f572b930b4ca7e85965a2ebb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef2a7bf61f21410d57be84faa50878c') in 0.030570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/Rock_Moss_001_height.png
+  artifactKey: Guid(fa1eb481b03ad4d4eb8f27e46c23fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/Rock_Moss_001_height.png using Guid(fa1eb481b03ad4d4eb8f27e46c23fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a8d935bdc99efc1f6ab14a30c68cab') in 0.024727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/Rock_Moss_001_basecolor.jpg
+  artifactKey: Guid(087084e23875a584ca99e18cb1de4056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/Rock_Moss_001_basecolor.jpg using Guid(087084e23875a584ca99e18cb1de4056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c6a6be743c02fea71e0b4e919f3b8f') in 0.021607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/Rock_Moss_001_normal.jpg
+  artifactKey: Guid(7f9c4921e049b704f9666bb66cea7689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_slanted/Rock_Moss_001_normal.jpg using Guid(7f9c4921e049b704f9666bb66cea7689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85dd3386c6db8b66de3ab4954226fd1') in 0.031930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.374489 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main
+  artifactKey: Guid(b6a0fd221dcc31c46b9dca9e32f01340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main using Guid(b6a0fd221dcc31c46b9dca9e32f01340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8ce95e403a0afc500fb8bff7f21deb') in 0.010768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.451507 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree
+  artifactKey: Guid(f4a3928622a5a9346890bbe2e543719f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree using Guid(f4a3928622a5a9346890bbe2e543719f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e917990cf4ce4f6a007d9dd6d6f8fa78') in 0.009833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.749035 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1
+  artifactKey: Guid(f637feab931857c4597307cc381fd91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1 using Guid(f637feab931857c4597307cc381fd91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaecde59884c6049dff681ea91055570') in 0.009192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053283 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/M_pineTree_doublesided.mat
+  artifactKey: Guid(fda7c2e3132b15c4f8e9234d66537a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/M_pineTree_doublesided.mat using Guid(fda7c2e3132b15c4f8e9234d66537a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c0f20130ed4595624927ceae20dc7d') in 0.243220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/pine_stylized_Roughness.png
+  artifactKey: Guid(38df45ac520fa7d41b40aad0d8c2d033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/pine_stylized_Roughness.png using Guid(38df45ac520fa7d41b40aad0d8c2d033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f90d7a1231903d747aca3bcb1b6c93') in 0.013455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/pine_stylized_Normal.png
+  artifactKey: Guid(b77aeaa978ba32f43b7ef8475855dd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/pine_stylized_Normal.png using Guid(b77aeaa978ba32f43b7ef8475855dd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091e96de61750dcfbb8389863a008598') in 0.017596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/pine_stylized_Albedo.png
+  artifactKey: Guid(709f9860eb7e5c840a6297b8e909d994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/pine_stylized_Albedo.png using Guid(709f9860eb7e5c840a6297b8e909d994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dfb70fa184e42c4a3081dbd02a22be') in 0.017164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/pine_stylized_Occlusion.png
+  artifactKey: Guid(e078ab97694be234daad191040575e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 1/pine_stylized_Occlusion.png using Guid(e078ab97694be234daad191040575e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf18500247f29add2c846b76f895b813') in 0.016803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.267240 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/Ground
+  artifactKey: Guid(6d7bb9a7d8604fa47a4b46648913b1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/Ground using Guid(6d7bb9a7d8604fa47a4b46648913b1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6b8e0a227ec837bedb7d5a1071aafb') in 0.010536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.552292 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks
+  artifactKey: Guid(e695066a2ff3d8b48b565c68b06ad4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks using Guid(e695066a2ff3d8b48b565c68b06ad4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5673a741f92c1ff7cdb95db19d9597c7') in 0.008680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.443795 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1
+  artifactKey: Guid(0d3ab7062da4c2643aaa01899ab2d35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1 using Guid(0d3ab7062da4c2643aaa01899ab2d35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b402a27bbf7876f5f20f4c3d1eec8050') in 0.009510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043640 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1/Color.png
+  artifactKey: Guid(c7c0f02a707618d4b88999da0af40066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1/Color.png using Guid(c7c0f02a707618d4b88999da0af40066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b556e14cf46257ee2060ada739e93587') in 0.013229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1/Normal map.png
+  artifactKey: Guid(fa89112b07b4537458c108d17a053266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1/Normal map.png using Guid(fa89112b07b4537458c108d17a053266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630e2e993a4e520c980edfa94ceb0909') in 0.015763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1/Rougness.png
+  artifactKey: Guid(d93a973bf2de7c142b81a30758e0adc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1/Rougness.png using Guid(d93a973bf2de7c142b81a30758e0adc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98aceae32220f22a190c1cc9516ea4b') in 0.014438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1/v1.mat
+  artifactKey: Guid(4270493e884cdf34d8ed8350b31d6259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/Ground/rockks/TextureV1/v1.mat using Guid(4270493e884cdf34d8ed8350b31d6259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4c5d88b6b56d30e7ef1c1ed86b09b9') in 0.042576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.455611 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M
+  artifactKey: Guid(15f23c2e32782704481e7a8699884eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M using Guid(15f23c2e32782704481e7a8699884eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75b5402dee33a4bdb83f4a5cda15e63') in 0.012836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.844345 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal
+  artifactKey: Guid(19ef85b2ee256d044b185acf6a0c799b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal using Guid(19ef85b2ee256d044b185acf6a0c799b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdcc3910ed7605526d46e2b50385b55') in 0.008982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065564 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal 1.mat
+  artifactKey: Guid(de77518194af5bd488a2adc186a68b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal 1.mat using Guid(de77518194af5bd488a2adc186a68b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386cf0aa8c45cd4cc004e0280c6076b4') in 0.255063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/Stylized_Crystal_001_roughness.jpg
+  artifactKey: Guid(3b15e19097b301947a4616a26d134693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/Stylized_Crystal_001_roughness.jpg using Guid(3b15e19097b301947a4616a26d134693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350e68309c3d64eda486fa4ddf0effb1') in 0.013931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal 2.mat
+  artifactKey: Guid(49f63a7d3d093ac4aa670cb920afd035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal 2.mat using Guid(49f63a7d3d093ac4aa670cb920afd035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2b56f970a612423c987e5e8cdb0447') in 0.017567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/Stylized_Crystal_001_normal.jpg
+  artifactKey: Guid(27b26f1ddea19f849bae517444d33f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/Stylized_Crystal_001_normal.jpg using Guid(27b26f1ddea19f849bae517444d33f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eac77afa04b58e792c26643bb3f6cd8') in 0.013906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal 3.mat
+  artifactKey: Guid(b8669eadf841e3344a63a053778be4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal 3.mat using Guid(b8669eadf841e3344a63a053778be4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02054d64b2def25825447fec3aec3f7') in 0.016940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/Stylized_Crystal_001_basecolor.jpg
+  artifactKey: Guid(9906c2a88a637284ba3670dc924ecb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/Stylized_Crystal_001_basecolor.jpg using Guid(9906c2a88a637284ba3670dc924ecb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eff066c99b8bf9a6a47308b10325d1') in 0.013073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal.mat
+  artifactKey: Guid(af89e040c4ae3d8488fd63aca3bb3350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal.mat using Guid(af89e040c4ae3d8488fd63aca3bb3350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba967bd5ddde08491d946b48670c8fe0') in 0.013414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/Stylized_Crystal_001_height.png
+  artifactKey: Guid(48b1d93906fcc954893b6de9d24ae9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/Stylized_Crystal_001_height.png using Guid(48b1d93906fcc954893b6de9d24ae9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc17beceac99654f753696ed33a2691') in 0.015514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal 4.mat
+  artifactKey: Guid(fb0018f58cb6fa54c9c2ffac297e5af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/crystal/crystal 4.mat using Guid(fb0018f58cb6fa54c9c2ffac297e5af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100e5093f7f60ac0bd9a550f512851f6') in 0.018135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.563764 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood
+  artifactKey: Guid(afb292201828d6147982d2cefde0c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood using Guid(afb292201828d6147982d2cefde0c8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd137a9993f3fced0cec86c47583cc707') in 0.010048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048764 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/New Material.mat
+  artifactKey: Guid(0b86a9888a7f66244b2db95f18b9e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/New Material.mat using Guid(0b86a9888a7f66244b2db95f18b9e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cd1376f9bc917b881a7267ef76a324') in 0.023543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_basecolor.jpg
+  artifactKey: Guid(64ea0ac8412bdf94e9fb5261df2cf112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_basecolor.jpg using Guid(64ea0ac8412bdf94e9fb5261df2cf112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8482bf4caa1cb872e1ec40fd0da3eb39') in 0.020326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_height.png
+  artifactKey: Guid(01f4c15b3edf7534bafe06db7938c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_height.png using Guid(01f4c15b3edf7534bafe06db7938c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12d2d2236894e1c870a2bb70cd3849b') in 0.018811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_ambientOcclusion.jpg
+  artifactKey: Guid(46d9c2d7625483347bf6fbb6fbb5ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_ambientOcclusion.jpg using Guid(46d9c2d7625483347bf6fbb6fbb5ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51a1d77b71d525115f9c2be0e44a7e8') in 0.018717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_roughness.jpg
+  artifactKey: Guid(1405c10f6e9a17d49b42cc4e5421d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_roughness.jpg using Guid(1405c10f6e9a17d49b42cc4e5421d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d628f131397799d14925818665e63c2') in 0.018380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_normal.jpg
+  artifactKey: Guid(e921cf382660fee41b99c7532644e4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Gate_wood/Wood_025_normal.jpg using Guid(e921cf382660fee41b99c7532644e4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ea1f03484923c92f9047751bb3e8cd') in 0.016029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.743515 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/Metal_006_ambientOcclusion.jpg
+  artifactKey: Guid(618aa71b88e64e44fa98e90d934909f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/Metal_006_ambientOcclusion.jpg using Guid(618aa71b88e64e44fa98e90d934909f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f306c797127d204b178df2f09d13ade6') in 0.031373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/New Material.mat
+  artifactKey: Guid(bfa915f12ea1388489ab35f2970649d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/New Material.mat using Guid(bfa915f12ea1388489ab35f2970649d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c7dfac8cc641d85b1b28db00029693') in 0.022668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/Metal_006_normal.jpg
+  artifactKey: Guid(4b0880176bcd7264c8d0bb38d7bb7069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/Metal_006_normal.jpg using Guid(4b0880176bcd7264c8d0bb38d7bb7069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe7417ddf9e6b7422d3e86e378110c') in 0.022393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/Metal_006_basecolor.jpg
+  artifactKey: Guid(0b0af3371d4fa2444967edd71f665898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/Metal_006_basecolor.jpg using Guid(0b0af3371d4fa2444967edd71f665898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019f95725013cc8e9db54e8b420655ff') in 0.020560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/Metal_006_height.png
+  artifactKey: Guid(f7f81791d12a5714891e2c633b8437e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Grey_reflective/Metal_006_height.png using Guid(f7f81791d12a5714891e2c633b8437e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96020f1379e3dafdf8454a47069ab0b2') in 0.031807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.119368 seconds.
+  path: Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/buckets 2.mat
+  artifactKey: Guid(5110f6b339c9da247a70c1e301e85684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/buckets 2.mat using Guid(5110f6b339c9da247a70c1e301e85684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8052c7151afb7e1cefac5526945be0a') in 0.024005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/hammer.mat
+  artifactKey: Guid(fd3474f6ea18b274e8ca231d68f97d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/hammer.mat using Guid(fd3474f6ea18b274e8ca231d68f97d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76f547fcc8643ca42f7835240304c1b') in 0.034939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/buckets.mat
+  artifactKey: Guid(6e70a7f2ddedb8345b14d65f63374654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/buckets.mat using Guid(6e70a7f2ddedb8345b14d65f63374654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71340a45bd9559ff7ec9177da4bb8011') in 0.022064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.634808 seconds.
+  path: Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/lantern
+  artifactKey: Guid(3964d2858eb94264b9602b69cdc81b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/lantern using Guid(3964d2858eb94264b9602b69cdc81b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d87eec5824a7e39aed1cf071083e3d') in 0.011688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045270 seconds.
+  path: Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/lantern/lowpoly_tex (1).png
+  artifactKey: Guid(f3c969f58d6ee8e4690f42fea8c323b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/lantern/lowpoly_tex (1).png using Guid(f3c969f58d6ee8e4690f42fea8c323b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0706aaa5bf32158a8fdd2cded857e335') in 0.012486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/lantern/New Material.mat
+  artifactKey: Guid(bde83bb0c4fd12948a6a71328b5ed0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/NewMesh_MonsterMap/lantern/New Material.mat using Guid(bde83bb0c4fd12948a6a71328b5ed0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d022d70a19f28c8014a701b0677cef0') in 0.013284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.762319 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/stone.mat
+  artifactKey: Guid(74f0d45147948734590e1ff19f950c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/stone.mat using Guid(74f0d45147948734590e1ff19f950c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3049484e2b1a72ab79f1cad9588b77') in 0.028718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_normal.jpg
+  artifactKey: Guid(7ac1010d2b827da4eba70a30dfe2f4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_normal.jpg using Guid(7ac1010d2b827da4eba70a30dfe2f4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76a5c58f9bfc568bc1a9fec22f75e7c') in 0.020871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_ambientOcclusion.jpg
+  artifactKey: Guid(cd388b9795d5b4f49b6f4ff20a504003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_ambientOcclusion.jpg using Guid(cd388b9795d5b4f49b6f4ff20a504003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4961a111b642a6de805dba808acd5641') in 0.019343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_basecolor.jpg
+  artifactKey: Guid(18b65a9b5fa6d814a907fb25e1fd5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_basecolor.jpg using Guid(18b65a9b5fa6d814a907fb25e1fd5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f2f45c81b2e1083827b8d8e8ca918a') in 0.021540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_height.png
+  artifactKey: Guid(af79d109734cb2d408430ba06d9e6b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_height.png using Guid(af79d109734cb2d408430ba06d9e6b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39bf7d7689f505d31709732ae2c46da') in 0.020946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_roughness.jpg
+  artifactKey: Guid(46ff44836324a6d42a78dd63ce3e2222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/T+M/M_Path_straight/Stylized_Stone_Floor_003_roughness.jpg using Guid(46ff44836324a6d42a78dd63ce3e2222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ec009663b416cf98fb416ef2d99ed6') in 0.021919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.913198 seconds.
+  path: Assets/Games/WhackMonster/Materials/Hammer/lambert6 1.mat
+  artifactKey: Guid(a3f82bec60ae2b644a9ea162428facba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Hammer/lambert6 1.mat using Guid(a3f82bec60ae2b644a9ea162428facba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc71c4db747ef5e9b8a87e00132cf053') in 0.027156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Games/WhackMonster/Materials/Hammer/lambert10 1.mat
+  artifactKey: Guid(10235941a0d1de64ca24252f0a989b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Hammer/lambert10 1.mat using Guid(10235941a0d1de64ca24252f0a989b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a956eb9028634a4a52bfc6571d23941d') in 0.043063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.801186 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 2/New Material.mat
+  artifactKey: Guid(d6a631e90c0cd204e9564ed7ada365c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 2/New Material.mat using Guid(d6a631e90c0cd204e9564ed7ada365c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4dc8af4b23066ce204ff64b903a4b1') in 0.020266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 2/uploads_files_1924595_tree.fbx
+  artifactKey: Guid(66843263243f70546ab357f86eb346c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 2/uploads_files_1924595_tree.fbx using Guid(66843263243f70546ab357f86eb346c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19cd3b8af28803d8c5e170726eb8298') in 0.076213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/1 2/tree_color.png
+  artifactKey: Guid(ae94ca9c74e6c3d408b31b17ab383cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/1 2/tree_color.png using Guid(ae94ca9c74e6c3d408b31b17ab383cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79374c1d174885f6347a45aaec9d7c7') in 0.018171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1144.331136 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/15/New Material 1.mat
+  artifactKey: Guid(ce5d0f5985bf4ef40967028b5870bda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/15/New Material 1.mat using Guid(ce5d0f5985bf4ef40967028b5870bda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d94ca90e1127e2a41a7b0202c34f149') in 0.069785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/15/New Material.mat
+  artifactKey: Guid(11d9bd7b9befcdc44888bbd031598567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/15/New Material.mat using Guid(11d9bd7b9befcdc44888bbd031598567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e24c9aaeec52179ab1e1bf6e565401c') in 0.039337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/15/pin_tree__NormalFree.png
+  artifactKey: Guid(c538bbf3e4e8b764a9fdea4779e2d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/15/pin_tree__NormalFree.png using Guid(c538bbf3e4e8b764a9fdea4779e2d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481b51933c6010f8f3543b10777cbfe4') in 0.022912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/15/Tree_pin_a.fbx
+  artifactKey: Guid(023c6c4c7aaae004995bed29af5cd155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/15/Tree_pin_a.fbx using Guid(023c6c4c7aaae004995bed29af5cd155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e276239bd130c6574cc9f125bf584ae5') in 0.130036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/15/pin_tree_dif_free.png
+  artifactKey: Guid(601f1e7051b4a3f4cb6cd4c4d5d22b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/15/pin_tree_dif_free.png using Guid(601f1e7051b4a3f4cb6cd4c4d5d22b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6282c61e8a0b3c4637b1d364c781a9') in 0.018549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/15/pin_leaf_free.tif
+  artifactKey: Guid(e9efae1051b3466438ae0a98b3f45e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/15/pin_leaf_free.tif using Guid(e9efae1051b3466438ae0a98b3f45e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d5bf5f40659fd2eb3f3ccf7294e0fa') in 0.023543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1924.625655 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/15/New Material 1.mat
+  artifactKey: Guid(ce5d0f5985bf4ef40967028b5870bda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/15/New Material 1.mat using Guid(ce5d0f5985bf4ef40967028b5870bda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04fa2a14e74e9a6d2b102c42b6b24f1') in 0.027669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Games/WhackMonster/Materials/environment/Main/tree/15/New Material.mat
+  artifactKey: Guid(11d9bd7b9befcdc44888bbd031598567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/environment/Main/tree/15/New Material.mat using Guid(11d9bd7b9befcdc44888bbd031598567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea1edfa8f4be5d5e4cd302ac1355cd7') in 1.406586 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008188 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2220ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (1820ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1122ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (569ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.39 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6124.
+Memory consumption went from 294.5 MB to 293.6 MB.
+Total: 4.829000 ms (FindLiveObjects: 0.546200 ms CreateObjectMapping: 0.489900 ms MarkObjects: 3.384200 ms  DeleteObjects: 0.407700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.895409 seconds.
+  path: Assets/Games/WhackMonster/Materials/Raghav_pompom/eye.mat
+  artifactKey: Guid(c1c86429b49564463a430832491d5437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Raghav_pompom/eye.mat using Guid(c1c86429b49564463a430832491d5437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2f762a20f6e0a0eb54fa38d6d73475') in 0.284213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Games/WhackMonster/Materials/Raghav_pompom/lambert10.mat
+  artifactKey: Guid(d4519fa219122410c82a4accd8f150f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Raghav_pompom/lambert10.mat using Guid(d4519fa219122410c82a4accd8f150f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c90e28cd686dcd19c39ba51216d0ba0') in 0.020217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Games/WhackMonster/Materials/Raghav_pompom/Sakura1.mat
+  artifactKey: Guid(aaa97b76ffa114938854d8a341d6c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Raghav_pompom/Sakura1.mat using Guid(aaa97b76ffa114938854d8a341d6c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a5265721337c4db9dc194e91e12956') in 0.024051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Games/WhackMonster/Materials/Raghav_pompom/seed1.mat
+  artifactKey: Guid(0c2bcf1b2a949405a89fdcc3b571d16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Raghav_pompom/seed1.mat using Guid(0c2bcf1b2a949405a89fdcc3b571d16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceae6958654b81a1a23a8d4e24f1ba5') in 0.019985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Games/WhackMonster/Materials/Raghav_pompom/teeth.mat
+  artifactKey: Guid(f5bf6ae084b89418caeebe98de06f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Raghav_pompom/teeth.mat using Guid(f5bf6ae084b89418caeebe98de06f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6a331e408e382271723db9dfb92b88') in 0.018593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Games/WhackMonster/Materials/Raghav_pompom/mouth.mat
+  artifactKey: Guid(840c08d4eeb6848c78fe83d9949e6846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Raghav_pompom/mouth.mat using Guid(840c08d4eeb6848c78fe83d9949e6846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6ef69f2cf97754fc26ebe74a48951f') in 0.020326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Games/WhackMonster/Materials/Raghav_pompom/stem.mat
+  artifactKey: Guid(3ff981d47c9b1448684c5c280e266212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Raghav_pompom/stem.mat using Guid(3ff981d47c9b1448684c5c280e266212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ad74a6eaa9c97b03ba5ac2d818503c') in 0.019585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Games/WhackMonster/Materials/Raghav_pompom/Sakura2.mat
+  artifactKey: Guid(579a5975813f24f2d82d0927afc682d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Raghav_pompom/Sakura2.mat using Guid(579a5975813f24f2d82d0927afc682d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef150ff3d418bfbd30d6e166054683f') in 0.019892 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.366 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1367ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.56 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6169.
+Memory consumption went from 294.6 MB to 293.6 MB.
+Total: 4.510000 ms (FindLiveObjects: 0.434800 ms CreateObjectMapping: 0.449200 ms MarkObjects: 3.020100 ms  DeleteObjects: 0.604800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.405494 seconds.
+  path: Assets/Games/WhackMonster/Materials/Anmol_PomPom/eye.mat
+  artifactKey: Guid(2dfd4b5324a904d82ab416665694bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Anmol_PomPom/eye.mat using Guid(2dfd4b5324a904d82ab416665694bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f4e270046254d47abf2dbf790c5e6c') in 0.265964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Games/WhackMonster/Materials/Anmol_PomPom/lambert6.mat
+  artifactKey: Guid(bfb950f4e08fa4f9383ae4c6b0ed734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Anmol_PomPom/lambert6.mat using Guid(bfb950f4e08fa4f9383ae4c6b0ed734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df671a5ee02cb82215341578c427065b') in 0.024211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Games/WhackMonster/Materials/Anmol_PomPom/mouth.mat
+  artifactKey: Guid(0c6ace4c0d6de4322991a93ae432ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Anmol_PomPom/mouth.mat using Guid(0c6ace4c0d6de4322991a93ae432ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d32e4cb5776f75b5a28036596d5149e') in 0.011665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Games/WhackMonster/Materials/Anmol_PomPom/teeth.mat
+  artifactKey: Guid(6d98aa84ba0454f8b8231fea0496fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Games/WhackMonster/Materials/Anmol_PomPom/teeth.mat using Guid(6d98aa84ba0454f8b8231fea0496fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc73810f8aff8334a6141f53adcc714c') in 0.012486 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1110ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.20 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6214.
+Memory consumption went from 294.7 MB to 293.7 MB.
+Total: 5.276500 ms (FindLiveObjects: 0.582600 ms CreateObjectMapping: 0.823900 ms MarkObjects: 3.364700 ms  DeleteObjects: 0.504100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1401ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (602ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.08 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6218.
+Memory consumption went from 294.6 MB to 293.7 MB.
+Total: 5.051500 ms (FindLiveObjects: 0.570300 ms CreateObjectMapping: 0.506700 ms MarkObjects: 3.534600 ms  DeleteObjects: 0.439000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1364ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (579ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6222.
+Memory consumption went from 294.7 MB to 293.7 MB.
+Total: 4.778300 ms (FindLiveObjects: 0.464800 ms CreateObjectMapping: 0.357000 ms MarkObjects: 3.393600 ms  DeleteObjects: 0.561700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1366ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.45 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6226.
+Memory consumption went from 294.7 MB to 293.7 MB.
+Total: 4.286900 ms (FindLiveObjects: 0.432800 ms CreateObjectMapping: 0.348300 ms MarkObjects: 3.044700 ms  DeleteObjects: 0.460000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1381ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1145ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (374ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6230.
+Memory consumption went from 294.7 MB to 293.7 MB.
+Total: 4.138400 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.375900 ms MarkObjects: 2.851400 ms  DeleteObjects: 0.472300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007807 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1616ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1359ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (707ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.60 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6234.
+Memory consumption went from 294.7 MB to 293.7 MB.
+Total: 8.046500 ms (FindLiveObjects: 0.907100 ms CreateObjectMapping: 0.915500 ms MarkObjects: 5.414400 ms  DeleteObjects: 0.808400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3394ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (3080ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (828ms)
+			ReleaseScriptCaches (13ms)
+			RebuildScriptCaches (239ms)
+			SetupLoadedEditorAssemblies (1421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (77ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (775ms)
+				ProcessInitializeOnLoadMethodAttributes (350ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (1ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6238.
+Memory consumption went from 294.7 MB to 293.7 MB.
+Total: 12.714300 ms (FindLiveObjects: 2.574700 ms CreateObjectMapping: 1.299800 ms MarkObjects: 8.079400 ms  DeleteObjects: 0.759000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.67 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Learn\Unity\Projects\Whack-a-Monster\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  9.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9296ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (8949ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (7225ms)
+			ReleaseScriptCaches (67ms)
+			RebuildScriptCaches (501ms)
+			SetupLoadedEditorAssemblies (664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.06 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6242.
+Memory consumption went from 294.7 MB to 293.8 MB.
+Total: 4.183800 ms (FindLiveObjects: 0.510700 ms CreateObjectMapping: 0.410900 ms MarkObjects: 2.819700 ms  DeleteObjects: 0.441300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
